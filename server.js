@@ -18,6 +18,10 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
+const tourRoutes = require("./backend/routes/tour.routes");
+
+app.use("/api/tour", tourRoutes);
+
 app.get("/", (req, res) => {
   res.send("ACC - Assignment 2 is running!");
 });
