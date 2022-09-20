@@ -28,6 +28,11 @@ const tourModel = mongoose.Schema(
       type: String,
       required: [true, "Please provide tour's duration"],
     },
+
+    viewCounter: {
+      type: Number,
+      default: 0,
+    },
   },
   {
     timestamps: true,
