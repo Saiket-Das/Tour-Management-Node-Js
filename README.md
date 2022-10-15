@@ -8,3 +8,7 @@
 * api/tour/trending - Get top 3 trending packages 
 * api/tour/cheapest - Get top 3 cheapest packages
 
+
+### Features 
+* Filtering
+* Pagination 
